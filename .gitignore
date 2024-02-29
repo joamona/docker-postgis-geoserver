@@ -1,0 +1,14 @@
+resources/*
+!resources/plugins/
+resources/plugins/*
+!resources/plugins/README.txt
+!resources/overlays/
+resources/overlays/*
+!resources/overlays/README.txt
+.idea
+btsync-media.env 
+btsync-db.env 
+geoserver-data
+scenario_tests/gwc/tests/__pycache__*
+scenario_tests/login/tests/__pycache__*
+scenario_tests/stores/tests/__pycache__*
